@@ -1,0 +1,7 @@
+
+I want to build a backend service to function as an ecommerce handling cart, checkout and payment.
+Payment can be simulated so focus on cart and placing the order and probably like  a sandbox service that places the order across different sourcing websites.
+The cart should show all products from different sourcing urls, along with their corresponding prices, along with their stocks all these will be availabile in our DB.
+An add to cart api needs to be exposed to add products to cart and be visible in the cart
+The user needs to have a selective checkout option to choose whichever products he needs to checkout with and by default all will be checked.
+Once the user clicks checkout the payment needs to be simultated by the sanbox as a success. For now leave the sanbox service as a placeholder url to handle the payments
