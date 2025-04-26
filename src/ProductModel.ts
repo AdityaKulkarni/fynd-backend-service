@@ -1,6 +1,6 @@
 import ReviewModel from "./ReviewModel";
 
-interface ProductModel {
+export default interface ProductModel {
   id: string;
   name: string;
   price: number;

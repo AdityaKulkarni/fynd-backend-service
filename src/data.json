@@ -1,0 +1,80 @@
+[
+  {
+    "id": "p1",
+    "name": "Premium Wireless Headphones",
+    "price": 199.99,
+    "description": "High-quality wireless headphones with noise cancellation and premium sound quality.",
+    "images": [
+      "https://example.com/headphones-1.jpg",
+      "https://example.com/headphones-2.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "userId": "u1",
+        "rating": 5,
+        "comment": "Excellent sound quality and very comfortable!",
+        "date": "2024-03-15"
+      },
+      {
+        "id": "r2",
+        "userId": "u2",
+        "rating": 4,
+        "comment": "Great headphones, but a bit pricey.",
+        "date": "2024-03-10"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "name": "Smart Fitness Watch",
+    "price": 149.99,
+    "description": "Track your fitness goals with this advanced smartwatch featuring heart rate monitoring and GPS.",
+    "images": [
+      "https://example.com/watch-1.jpg",
+      "https://example.com/watch-2.jpg",
+      "https://example.com/watch-3.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "r3",
+        "userId": "u3",
+        "rating": 5,
+        "comment": "Best fitness tracker I've ever owned!",
+        "date": "2024-03-12"
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "name": "Professional Coffee Maker",
+    "price": 299.99,
+    "description": "Brew cafe-quality coffee at home with this professional-grade coffee maker.",
+    "images": [
+      "https://example.com/coffee-maker-1.jpg"
+    ],
+    "reviews": [
+      {
+        "id": "r4",
+        "userId": "u4",
+        "rating": 4,
+        "comment": "Makes great coffee, but takes up a lot of counter space.",
+        "date": "2024-03-08"
+      },
+      {
+        "id": "r5",
+        "userId": "u5",
+        "rating": 5,
+        "comment": "Worth every penny! The coffee is amazing.",
+        "date": "2024-03-05"
+      },
+      {
+        "id": "r6",
+        "userId": "u6",
+        "rating": 3,
+        "comment": "Good coffee maker but a bit complicated to use.",
+        "date": "2024-03-01"
+      }
+    ]
+  }
+]

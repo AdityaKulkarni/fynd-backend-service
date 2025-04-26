@@ -11,6 +11,7 @@ import {
   MapUIBuilder,
   LayoutUIBuilder,
 } from "@dainprotocol/utils";
+import productDainService from "./ProductDainService";
 
 const port = Number(process.env.PORT) || 2022;
 
@@ -218,6 +219,10 @@ const dainService = defineDAINService({
   tools: [getWeatherConfig, getWeatherForecastConfig],
 });
 
-dainService.startNode({ port: port }).then(({ address }) => {
-  console.log("Weather DAIN Service is running at :" + address().port);
+// dainService.startNode({ port: port }).then(({ address }) => {
+//   console.log("Weather DAIN Service is running at :" + address().port);
+// });
+
+productDainService.startNode({ port: port }).then(({ address }) => {
+  console.log("Product DAIN Service is running at :" + address().port);
 });
