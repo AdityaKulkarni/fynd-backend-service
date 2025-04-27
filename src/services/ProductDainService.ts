@@ -16,7 +16,7 @@ const getProductRecommendationsConfig: ToolConfig = {
             `User / Agent ${agentInfo.id} requested product recommendations for "${productQuery}" with budget ${priceBudget}`
         );
 
-        const beerFromApiJson = await beerData();
+        const beerFromApiJson = await beerData(productQuery);
 
         try {
             const parsedRecommendations = await responseBasedOnApiData(

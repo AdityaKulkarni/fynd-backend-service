@@ -28,7 +28,7 @@ export const responseBasedOnApiData = async (
 ) => {
   try{
 
-  
+    console.log("instructions", instructions.concat(JSON.stringify(data)));
     const chat = ai.chats.create({
         model: "gemini-1.5-pro",
         config: {
@@ -58,10 +58,14 @@ export const responseBasedOnApiData = async (
             .replace("```", "")
     );
 
+    if(recommendations.length === 0){
+        recommendations = data;
+    }
+
     recommendations = [
         ...recommendations.map((product: ProductModel) => ({
             ...product,
-            id: product["_id"],
+            id: product["_id"] || "some_random_id",
         })),
     ];
     return recommendations;
